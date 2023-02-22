@@ -14,3 +14,21 @@
     이때, 가져온 링크를 먼저 적어주어야 내가 수정한 css가 적용됨 => 오버라이트
 - 모바일 버전 적용을 위해 js CDN도 필요함
   - <script></script>를 <body> 맨 마지막에 추가해주기
+
+
+## media 쿼리 사용하기
+```css
+@media screen and (max-width:48rem) {
+  .first-line{
+    text-align: center;
+  }
+}
+```
+max-width가 48rem일때 (즉, 너비 0~48)
+first-line 클래스의 텍스트를 중앙정렬한다.
+
+### 추가
+```
+display: block;
+```
+display에 적용된 css를 없애겠다. (적용 취소)
