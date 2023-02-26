@@ -1,8 +1,10 @@
-# html-css
+## 메뉴 강조 효과 주기 js 이용
+![image](https://user-images.githubusercontent.com/101108440/221406964-e549e017-6206-40e3-a3a3-518c4b4cbc8d.png)
+세로, 가로 버전 2개 만들
 
-- html로 자기소개서 만들기
-- css 연습으로 연습장 만들어보기
-- 구글 웹사이트 따라 만들기
-- 스포티파이 웹사이트 따라 만들기
-- 부트스트랩을 이용한 쇼핑몰 랜딩 페이지 
-- 나만의 랜딩 페이지 만들기
+```js
+horizontalMenus.forEach((menu) =>
+  menu.addEventListener('click', (e) => horizontalIndicator(e.currentTarget))
+);
+```
+forEach문을 이용하여 클릭했을 때 이벤트 발생 함수 
